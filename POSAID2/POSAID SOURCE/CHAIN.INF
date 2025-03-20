@@ -1,0 +1,192 @@
+{LORAN-C CHAIN WGS84 POSITION INFORMATION FILE.  POSITIONS IN  FORMAT
+ DEGREES MINUTES SECONDS.  FILES IN FORMAT;
+$ GRI     DESCRIPTION        DATUM  :
+ MASTER_LAT  MASTER_LON             0.0               0.0
+ N/S  VICTOR_LAT  E/W VICTOR_LON    EMMISSION_DELAY   CODING DELAY
+ N/S  WHISKEY_LAT E/W WHISKEY_LON   EMMISSION_DELAY   CODING DELAY
+ N/S  XRAY_LAT    E/W XRAY_LON      EMMISSION_DELAY   CODING DELAY
+ N/S  YANKEE_LAT  E/W YANKEE_LON    EMMISSION_DELAY   CODING DELAY
+ N/S  ZULU_LAT    E/W ZULU_LON      EMMISSION_DELAY   CODING DELAY
+
+ IF CHAIN DOES NOT HAVE A PARTICULAR SECONDARY, 0's ARE ENTERED FOR ALL VALUES}
+
+$  4990    CENTRAL PACIFIC CHAIN      WGS84 DATUM
+N 16 44 44.093   W 169 30 30.646        0.0       0   {M JOHNSTON ISLAND}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 20 14 49.301   W 155 53 09.146    15972.23  11000   {X UPOLO POINT, HI}
+N 28 23 41.903   W 178 17 29.646    34253.17  29000   {Y KURE ISLAND}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no ZULU}
+
+$  5930    CANADIAN EAST COAST CHAIN WGS84 DATUM
+N 46 48 27.305   W  67 55 37.159        0.0       0   {M CARIBOU, ME}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 41 15 12.046   W  69 58 38.536    13131.88  11000   {X NANTUCKET, MA}
+N 46 46 32.286   W  53 10 27.606    28755.02  25000   {Y CAPE RACE}
+N 52 22 35.252   W  55 42 27.862    41594.59  38000   {Z FOX HARBOR}
+
+$  5970    EAST ASIAN CHAIN          WGS84 DATUM
+N 36 11 05.921   E 129 20 27.833        0.0       0   {M POHANG}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 42 44 37.217   E 143 43 09.799    15783.68  11000   {W HOKKAIDO}
+N 35 02 23.996   E 126 32 27.295    31947.02  31000   {X HAMPYONG}
+N  0  0  0.0     E   0  0  0.0          0.0       0   {no YANKEE}
+N 26 36 25.110   E 128 08 56.999    45565.56  42000   {Z GESASHI}
+
+$  5990    CANADIAN WEST COAST CHAIN WGS84 DATUM
+N 51 57 58.876   W 122 22 01.686        0.0       0   {M WILLIAMS LAKE, BC}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 55 26 20.940   W 131 15 19.094    13343.60  11000   {X SHOAL COVE}
+N 47 03 48.096   W 119 44 38.976    28927.36  27000   {Y GEORGE}
+N 50 36 29.830   W 127 21 28.489    42266.63  41000   {Z PORT HARDY}
+
+*  6930    CHINESE CHAIN             WGS84 DATUM  (?)
+N 23 58 06.000   E 111 43 06.000        0.0       0   {M XINDU}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 22 25 00.000   E 107 21 00.000        0.0       0   {W XINHE}
+N 23 43 42.000   E 116 53 48.000        0.0       0   {X ZHANGXI}
+N  0  0  0.0     E   0  0  0.0          0.0       0   {no YANKEE}
+N  0  0  0.0     E   0  0  0.0          0.0       0   {no ZULU}
+
+
+
+$  7170    SAUDI ARABIA SOUTH CHAIN  WGS72 DATUM
+N 20 28 02.03    E  44 34 52.89         0.0       0   {M AL KHAMASIN}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 24 50 01.64    E  50 34 12.57     13612.55  11000   {W SALWA}
+N 23 48 36.96    E  42 51 18.18     27371.23  26000   {X AFIF}
+N 20 13 58.45    E  40 12 31.57     40526.5   39000   {Y AL LITH}
+N 16 25 56.03    E  42 48 04.88     53617.59  52000   {Z AL MUWASSAM}
+
+$  7930    LABRADOR SEA CHAIN        WGS84 DATUM
+N 52 22 35.252   W  55 42 27.862        0.0       0   {M FOX HARBOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 46 46 32.286   W  53 10 27.606    13167.31  11000   {W CAPE RACE}
+N 59 59 17.348   W  45 10 26.916    29565.39  26000   {X ANGISSOQ}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no YANKEE}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no ZULU}
+
+*  7950    EASTERN USSR CHAYKA CHAIN WGS72 DATUM  (?)
+N 51 04 42.800   E 142 42 04.900        0.0       0   {M ALEKSANDROVSK}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 53 07 47.500   E 157 41 42.900    14508.10  11000   {W PETROPAVLOVSK}
+N 44 31 59.700   E 131 38 23.400    33678.00  30000   {X USSURIYSK}
+N  0  0  0.0     E   0  0  0.0          0.0       0   {no YANKEE}
+N  0  0  0.0     E   0  0  0.0          0.0       0   {no ZULU}
+
+
+$  7960    GULF OF ALASKA CHAIN      WGS84 DATUM
+N 63 19 42.884   W 142 48 31.346        0.0       0   {M TOK, AK}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 57 26 20.301   W 152 22 10.708    13804.45  11000   {X NARROW CAPE}
+N 55 26 20.94    W 131 15 19.094    29651.14  26000   {Y SHOAL COVE}
+N 65 14 40.372   W 166 53 11.996    47932.52  44000   {Z PORT CLARENCE, AK}
+
+$  7970    NORWEGIAN SEA CHAIN       WGS84 DATUM
+N 62 17 59.713   W  07 04 25.984        0.0       0   {M EJDE}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 68 38 06.207   E  14 27 47.554    15048.10  11000   {W B0}
+N 54 48 29.962   E  08 17 36.866    30065.64  26000   {X SYLT, GR}
+N 64 54 26.647   W  23 55 21.196    48944.53  46000   {Y  SANDUR}
+N 70 54 52.662   W   8 43 58.136    63216.30  60000   {Z JAN MAYEN}
+
+$  7980    SOUTHEAST U.S. CHAIN      WGS84 DATUM
+N 30 59 38.870   W  85 10  8.751        0.0       0   {M MALONE, FL}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 30 43 33.149   W  90 49 43.046    12809.54  11000   {W GRANGEVILLE, LA}
+N 26 31 55.141   W  97 49 59.539    27443.38  23000   {XRAY RAYMONDVILLE, TX}
+N 27 01 58.528   W  80  6 52.875    45201.88  43000   {Y JUPITER}
+N 34 03 46.208   W  77 54 46.100    61542.72  59000   {Z CAROLINA BEACH, NC}
+
+$  7990    MEDITERRANEAN SEA CHAIN   WGS84 DATUM
+N 38 52 20.707   E  16 43 06.713        0.0       0   {M SELLIA MARINA}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 35 31 20.912   E  12 31 30.799    12755.98  11000   {X LAMPEDUSA, FL}
+N 40 58 21.066   E  27 52 02.074    32273.29  29000   {Y KARGABARUN}
+N 42 03 36.629   E  03 12 16.066    50999.71  47000   {Z ESTARTIT}
+
+*  8000    WESTERN USSR CHAYKA CHAIN WGS72 DATUM (?)
+N 53 07 50.6     E  34 54 44.8          0.0       0   {M BRYANSK}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 61 45 32.4     E  33 41 40.4      13217.21  10000   {W PETROZAVODSK}
+N 53 07 55.2     E  25 23 46.0      27125.00  25000   {X SOLNIM}
+N 44 53 20.6     E  33 52 32.1      53070.25  50000   {Y SIMFEROPOL}
+N 53 17 17.6     E  48 06 53.4      67941.60  65000   {Z SYZRAN}
+
+*  8290    NORTH CENTRAL U.S. CHAIN  WGS84 DATUM
+N  0  0  0.0     W   0  0  0.0          0.0       0   {M HAVRE, MT}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 48 36 49.947   W  94 33 17.915        0.0       0   {W BAUDETTE, MN}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {X GILLETTE, WY}
+N 51 57 58.876   W 122 22 01.686        0.0       0   {Y WILLIAMS LAKE, BC}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no ZULU}
+
+$  8970    GREAT LAKES CHAIN         WGS84 DATUM
+N 39 51 07.658   W  87 29 11.586        0.0       0   {M DANA, IN}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 30 59 38.870   W  85 10 08.751    14355.11  11000   {W MALONE, FL}
+N 42 42 50.176   W  76 49 33.308    31162.06  28000   {X SENECA, NY}
+N 48 36 49.947   W  94 33 17.915    47753.74  44000   {Y BAUDETTE, MN}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {Z BOISE CITY, OK}
+
+$  8990    SAUDI ARABIA NORTH CHAIN  WGS72 DATUM
+N 23 48 36.96    E  42 51 18.18         0.0       0   {M AFIF}
+N 24 50 01.64    E  50 34 12.57     13641.09  11000   {V SALWA}
+N 29 01 04.74    E  46 37 22.50     27298.51  25000   {W AR RUGI}
+N 28 09 16.00    E  34 45 40.54     43145.53  40000   {X ASH SHAYKH HUMAYD}
+N 20 13 58.45    E  40 12 31.57     57606.26  56000   {Y AL LITH}
+N 16 25 56.03    E  42 48 04.88     71726.94  69000   {Z AL MUWASSAM}
+
+*  9610    SOUTH CENTRAL U.S. CHAIN  WGS84 DATUM
+N  0  0  0.0     W   0  0  0.0          0.0       0  {M BOISE CITY, OK}
+N  0  0  0.0     W   0  0  0.0      13884.48  11000  {V GILLETTE, WY}
+N 35 19 18.305   W 114 48 16.881    28611.81  25000  {W SEARCHLIGHT, NV}
+N  0  0  0.0     W   0  0  0.0      42044.92  40000  {X LAS CRUCES, NM}
+N 26 31 55.141   W  97 49 59.539    56024.80  52000  {Y RAYMONDVILE, TX}
+N 30 43 33.149   W  90 49 43.046    69304.00  65000  {Z GRANGEVILLE, LA}
+
+$  9940    WEST COAST U.S. CHAIN     WGS84 DATUM
+N 39 33 06.740   W 118 49 55.816        0.0       0   {M FALLON}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 47 03 48.096   W 119 44 38.976    13796.90  11000   {W GEORGE}
+N 38 46 57.110   W 122 29 43.975    28094.50  27000   {X MIDDLETOWN}
+N 35 19 18.305   W 114 48 16.881    41967.30  40000   {Y SEARCH LIGHT, NV}
+N  0  0  0.0     W   0  0  0.0          0.00      0   {no ZULU}
+
+$  9960    NORTHEAST U.S. CHAIN      WGS84 DATUM
+N 42 42 50.716   W  76 49 33.308        0.0       0   {M SENECA, NY}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 46 48 27.305   W  67 55 37.159    13797.20  11000   {W CARIBOU, ME}
+N 41 15 12.046   W  69 58 38.536    26969.93  25000   {X NANTUCKET, MA}
+N 34 03 46.208   W  77 54 46.100    42221.65  39000   {Y CAROLINA BEACH, NC}
+N 39 51 07.658   W  87 29 11.586    57162.06  54000   {Z DANA, IN}
+
+$  9970    NORTHWEST PACIFIC CHAIN   WGS84 DATUM
+N 24 48 03.734   E 141 19 30.857        0.0       0   {M IWO JIMA}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 24 17 08.026   E 153 58 53.786    15283.94  11000   {W MARCUS}
+N 42 44 37.217   E 143 43 09.799    36685.12  30000   {X HOKKAIDO, JP}
+N 26 36 25.110   E 128 08 56.999    59463.18  55000   {Y GESASHI}
+N 13 27 50.092   E 144 49 32.987    85365.84  81000   {Z BARRIGADA}
+
+$  9980    ICELANDIC CHAIN           WGS84 DATUM
+N 64 54 26.647   W  23 55 21.196        0.0       0   {M SANDUR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N 59 59 17.348   W  45 10 26.916    15068.03  11000   {W ANGISSOQ}
+N 62 17 59.713   W  07 04 25.984    32944.54  30000   {X EJDE}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no YANKEE}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no ZULU}
+
+$  9990    NORTH PACIFIC CHAIN       WGS84 DATUM
+N 57 09 12.35    W 170 15 06.245        0.0       0   {M SAINT PAUL}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no VICTOR}
+N  0  0  0.0     W   0  0  0.0          0.0       0   {no WHISKEY}
+N 52 49 44.134   E 173 10 49.528    14875.25  11000   {X ATTU ISLAND}
+N 65 14 40.372   W 166 53 11.996    32068.95  29000   {Y PORT CLARENCE, AK}
+N 57 26 20.301   W 152 22 10.708    46590.45  43000   {Z NARROW CAPE}
+
+
