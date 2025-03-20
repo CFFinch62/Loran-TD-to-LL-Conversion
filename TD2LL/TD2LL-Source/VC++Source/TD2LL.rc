@@ -1,0 +1,308 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TD2LL.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_TDICON              ICON    DISCARDABLE     "res\\TD2LL.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TD2LL"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_TDICON,IDC_STATIC,11,17,20,20
+    CTEXT           "TD2LL Version 1.4",IDC_STATIC,38,14,159,8,SS_NOPREFIX
+    CTEXT           "Copyright (C) 2003",IDC_STATIC,57,50,119,8
+    DEFPUSHBUTTON   "OK",IDOK,47,98,50,14,WS_GROUP
+    CTEXT           "Loran-C TD to Latitude/Longitude Converter",IDC_STATIC,
+                    47,23,140,8
+    CTEXT           "NOT TO BE USED FOR NAVIGATION!",IDC_STATIC,47,81,144,11,
+                    WS_BORDER
+    LTEXT           "Radionavigation Systems Research Group",IDC_STATIC,50,
+                    32,134,8
+    LTEXT           "School of Informatics, University of Wales, Bangor, LL57 1UT, UK",
+                    IDC_STATIC,14,41,208,8
+    LTEXT           "http://www.informatics.bangor.ac.uk/Loran-C",
+                    IDC_URL_STATIC,45,64,145,8
+    PUSHBUTTON      "Go To URL",IDC_URL_BUTTON1,109,98,82,14
+END
+
+IDD_TD2LL_DIALOG DIALOGEX 0, 0, 321, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TD2LL - Loran-C TD to Latitude/Longitude Converter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Quit",IDOK,263,106,40,19
+    EDITTEXT        IDC_TD1_EDIT,15,20,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TD2_EDIT,15,40,95,14,ES_AUTOHSCROLL
+    GROUPBOX        "TD (Microseconds)",IDC_STATIC,10,5,130,58
+    GROUPBOX        "Loran-C Chain Settings",IDC_STATIC,144,5,165,95
+    LTEXT           "Chain",IDC_STATIC,282,26,25,8
+    COMBOBOX        IDC_COMBO_CHAIN,158,20,119,45,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SEC1_COMBO,212,58,65,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SEC2_COMBO,212,79,65,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_MASTER_EDIT,212,39,65,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Master",IDC_STATIC,282,44,22,8
+    LTEXT           "Sec. 1",IDC_STATIC,282,66,22,8
+    LTEXT           "Sec. 2",IDC_STATIC,282,83,22,8
+    LTEXT           "TD1",IDC_STATIC,115,25,15,8
+    LTEXT           "TD2",IDC_STATIC,115,45,15,8
+    EDITTEXT        IDC_LATITUDE_EDIT,15,86,95,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_LONGITUDE_EDIT,15,105,95,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "TD2LL",IDC_GO_BUTTON,149,106,31,19
+    GROUPBOX        "Geographic Coordinates (WGS-84)",IDC_STATIC,10,65,130,
+                    60
+    LTEXT           "Lat",IDC_LAT_STATIC,115,91,11,8
+    LTEXT           "Lon",IDC_LON_STATIC,115,110,13,8
+    PUSHBUTTON      "LL2TD",IDC_GOBACK_BUTTON,185,106,31,19
+    CONTROL         "Non-iterative",IDC_NONITER_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,20,140,56,10
+    CONTROL         "Iterative",IDC_ITER_RADIO,"Button",BS_AUTORADIOBUTTON,
+                    85,140,41,10
+    GROUPBOX        "Method",IDC_STATIC,10,128,130,27
+    PUSHBUTTON      "Open File",IDC_BUTTON_OPENFILE,219,106,40,19
+    EDITTEXT        IDC_MESSAGE_EDIT,149,134,153,14,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_MASF_EDIT,158,38,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_SEC1ASF_EDIT,158,59,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_SEC2ASF_EDIT,158,79,40,12,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "µS",IDC_STATIC,200,46,10,8
+    LTEXT           "µS",IDC_STATIC,200,64,10,8
+    LTEXT           "µS",IDC_STATIC,200,83,10,8
+    CTEXT           "Format",IDC_FORMAT_STATIC,15,76,92,8,SS_NOTIFY
+    CONTROL         "Amb.",IDC_OPT_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_NOTIFY | WS_TABSTOP,111,74,27,10
+END
+
+IDD_REGISTERPOPUP_DIALOG DIALOG DISCARDABLE  0, 0, 208, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reminder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,37,54,50,14
+    ICON            IDR_TDICON,IDC_STATIC,7,7,20,20
+    LTEXT           "You might enjoy the convenience of the full version!",
+                    IDC_STATIC,29,33,164,8
+    LTEXT           "Looks like you're finding TD2LL useful.",IDC_STATIC,52,
+                    23,123,8
+    LTEXT           "http://www.informatics.bangor.ac.uk/Loran-C",IDC_STATIC,
+                    37,43,145,8
+    CTEXT           "TD2LL Beta Version 1.0",IDC_STATIC,51,13,119,8,
+                    SS_NOPREFIX
+    PUSHBUTTON      "Get Full Version",IDC_URL_BUTTON2,91,54,88,14
+END
+
+IDD_AVAILABLE_DIALOG DIALOGEX 0, 0, 189, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,27,50,14
+    LTEXT           "This feature is only available in the full version!",
+                    IDC_STATIC,34,13,146,8,0,0,HIDC_STATIC
+    ICON            IDR_TDICON,IDC_STATIC,7,7,21,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TD2LL MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TD2LL\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TD2LL.EXE\0"
+            VALUE "ProductName", "TD2LL Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_TD2LL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_REGISTERPOPUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_AVAILABLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TD2LL..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TD2LL.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

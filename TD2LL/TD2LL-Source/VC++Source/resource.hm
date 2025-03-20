@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by TD2LL.rc
+//
+#define HIDC_STATIC                     0x8068ffff    // IDD_AVAILABLE_DIALOG

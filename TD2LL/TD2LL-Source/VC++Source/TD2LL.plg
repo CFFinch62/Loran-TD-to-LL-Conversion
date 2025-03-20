@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TD2LL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/TD2LL.res" /d "NDEBUG" "C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\TD2LL.rc"" 
+Creating temporary file "C:\Users\Chuck\AppData\Local\Temp\RSP9044.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TD2LL.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Available.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\common.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\ECEF.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Elipsoid.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\LoranChain.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\LoranTransmitter.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\MapPoint.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Mutils.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\RegisterPopup.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\TD2LL.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\TD2LLDlg.cpp"
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\tdconv.cpp"
+]
+Creating command line "cl.exe @C:\Users\Chuck\AppData\Local\Temp\RSP9044.tmp" 
+Creating temporary file "C:\Users\Chuck\AppData\Local\Temp\RSP9045.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TD2LL.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Chuck\AppData\Local\Temp\RSP9045.tmp" 
+Creating temporary file "C:\Users\Chuck\AppData\Local\Temp\RSP9046.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/TD2LL.pdb" /machine:I386 /out:"Release/TD2LL.exe" 
+".\Release\Available.obj"
+".\Release\common.obj"
+".\Release\ECEF.obj"
+".\Release\Elipsoid.obj"
+".\Release\LoranChain.obj"
+".\Release\LoranTransmitter.obj"
+".\Release\MapPoint.obj"
+".\Release\Mutils.obj"
+".\Release\RegisterPopup.obj"
+".\Release\StdAfx.obj"
+".\Release\TD2LL.obj"
+".\Release\TD2LLDlg.obj"
+".\Release\tdconv.obj"
+".\Release\TD2LL.res"
+]
+Creating command line "link.exe @C:\Users\Chuck\AppData\Local\Temp\RSP9046.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Available.cpp
+common.cpp
+ECEF.cpp
+Elipsoid.cpp
+LoranChain.cpp
+LoranTransmitter.cpp
+MapPoint.cpp
+Mutils.cpp
+C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Mutils.cpp(715) : warning C4244: 'argument' : conversion from 'double' to 'long', possible loss of data
+C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Mutils.cpp(715) : warning C4244: 'argument' : conversion from 'double' to 'long', possible loss of data
+C:\Users\Chuck\OneDrive\Programming\LORAN\TD2LL\TD2LL-Source\VC++Source\Mutils.cpp(1277) : warning C4101: 't' : unreferenced local variable
+RegisterPopup.cpp
+TD2LL.cpp
+TD2LLDlg.cpp
+tdconv.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TD2LL.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
