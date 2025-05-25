@@ -8,5 +8,5 @@ These programs are OLD! Some run only in DOS.
 3. POSAID2 - made by USCG (DOS) {Pascal Source included}
 4. TD2LL - made by British Researchers (Win 32) {VS C++ 6.0 source included}
 
-Along with the ASF and research papers their is enough informaiton if any one is trying to write their own code to 
+Along with the ASF and research papers their is enough informaiton if any one is trying to write there own code to 
 make this conversion. 
