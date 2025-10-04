@@ -1,8 +1,0 @@
-This file grants the distribution rights for the program MARNAV
-and its supporting and associated files to all ASP BBS members
-by C & E Associates, which is owned and operated by the program
-author and copyright holder Edward J. Panner.
-
-                                         Edward J. Panner
-                                         
-
